@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake</title>
+    <script src="https://kit.fontawesome.com/4c129cbadc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../src/style.css">
+    <link rel="icon" href="../images/Blueberry Cheese.webp">
+</head>
+<body>
+   <div id="header">
+        <p ><img id="letter" src="../images/letter-a.png" alt="" width="35px" height="35px"><span id="heading">Free Delivery: 45 Mins to 1 Hour! 8.30 AM - 9.30 PM.</span>
+            <a href="#"><img id="cart-btn" src="../images/shopping-cart (1).png" alt="" width="35px" height="35px"></a><span id="ca">  Cart</span>
+        </p>
+    </div>
+    <div class="cart">
+        <p id="cart-title">Your Cart</p>
+        <div class="total">
+            <div class="total-tile">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <button type="button" class="btn-buy">Buy Now</button>
+    </div>
+
+    <!-- login form -->
+    <form action="" class="account">
+        <h3 id="title">Sign In</h3>
+        <div class="input-group">
+            <div class="input-field" id="nameField" style="display: none;">
+                <input name="first_name" type="text" placeholder="Name">
+            </div>
+
+            <div class="input-field">
+                <input name="email" type="email" placeholder="Email">
+            </div>
+
+            <div class="input-field">
+                <input name="password" type="password" placeholder="Password">
+            </div>
+            <p>forgot password <a href="#">Click Here!</a></p>
+        </div>
+
+        <div class="btn-field">
+            <button type="submit" id="signupBtn" style="display: none;">Sign up</button>
+            <button type="submit" id="signinBtn">Sign in</button>
+        </div>
+        <p  class="my-link" id="cr_act">New User? <a href="#">Create account</a> </p>
+        <p id="lg_act" style="display: none;">Already a User? <a href="#">Sign in</a> </p>
+        <p id="result"></p>
+    </form>
+
+    <div id="div1">
+        <p id="hea">Thriprayar</p>
+        <a><img src="../images/location (1).png" alt="" height="20px" width="20px" id="loc"></a>
+        <div id="search">
+            <img src="../images/search.png" alt="" width="20px" height="20px">
+            <input type="text" placeholder="search">
+        </div>
+        <a id="logIn" href="#">Log In</a>
+    </div>
+
+
+    <div id="sticky">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SIGNATURE CAKES & PASTRIES</a></li>
+            <li><a href="#">EGGLESS CAKES</a></li>
+            <li><a href="#">THEME CAKES</a></li>
+            <li><a href="#">COOKIES N CHOCOLATES</a>
+                <div id="sub-menu">
+                    <ul>
+                        <li><a href="">CHOCOLATES</a></li>
+                        <li><a href="">COOKIES</a></li>
+                        <li><a href="">EASTER</a></li>
+                    </ul>
+                </div>
+                
+            </li>
+            <li><a href="#">BREADS / SNACKS</a>
+                <div id="sub-menu1">
+                    <ul>
+                        <li><a href="">Breads</a></li>
+                        <li><a href="">Burgers</a></li>
+                        <li><a href="">Sandwiches</a></li>
+                        <li><a href="">Puffs</a></li>
+                        <li><a href="">Doughnuts</a></li>
+                        <li><a href="">Samosas</a></li>
+                        <li><a href="">Cupcakes</a></li>
+                        <li><a href="">Eclairs</a></li>
+                        <li><a href="">Tarts</a></li>
+                        <li><a href="">Buns & Rolls</a></li>
+                        <li><a href="">Rusk</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">CORPORATE ORDERS</a></li>
+            <li><a href="#">PARTY ITEMS</a></li>
+        </ul>
+    </div>
+
+    <div id="menu">
+        <img src="../images/black current.webp" alt="" class="images" >
+        <img src="../images/Strawbery.webp" alt="" class="images">
+        <img src="../images/rasmalai cake.webp" alt="" class="images">
+        <img src="../images/Six Wonders.webp" alt="" class="images">
+        <img src="../images/Russian Honey Cake_edited.webp" alt="" class="images">
+        <img src="../images/Classic Black Forest.webp" alt="" class="images">
+        <img src="../images/spanish Delight.webp" alt="" class="images">
+        <img src="../images/Choco Butterscotch.webp" alt="" class="images">
+        <img src="../images/Baked Cheese Cake.webp" alt="" class="images">
+        <img src="../images/Blueberry Cheese.webp" alt="" class="images">
+        <div></div>
+        <div id="headingImg">
+            <pre>                 Black
+                Currant
+            </pre>
+            <pre>                       Fresh
+                    Strawberry
+            </pre>
+            <pre>                   Rasmalai
+                     Cake</pre>
+           <pre>                       Six
+                   Wonders
+           </pre>
+           <pre>                      Russian 
+                       Honey
+           </pre>
+           <pre>                       Black
+                       Forest
+           </pre>
+           <pre>                        Salted
+                       Caramel
+           </pre>
+           <pre>                       Choco
+                    Butterscotch
+           </pre>
+           <pre>                Cheese
+                  Cake
+           </pre>
+           <pre>                      Blueberry
+                        Cheese
+           </pre>
+       </div>
+    </div>
+    
+    <!-- adding item -->
+    <div id="images">
+        <div class="slider">
+        <div class="slide">
+            <input type="radio" name="radio-btn" id="r1">
+            <input type="radio" name="radio-btn" id="r2">
+            <input type="radio" name="radio-btn" id="r3">
+            <input type="radio" name="radio-btn" id="r4">
+            <div class="im first">
+                <img src="../images/1.webp" alt="" id="images">
+            </div>
+            <div class="im second">
+                <img src="../images/2.webp" alt="" id="images">
+            </div>
+            <div class="im third">
+                <img src="../images/3.webp" alt="" id="images">
+            </div>
+            <div class="im fourth">
+                <img src="../images/4.webp" alt="" id="images">
+            </div>
+            <div class="nav-auto">
+                <div class="a-b1"></div>
+                <div class="a-b2"></div>
+                <div class="a-b3"></div>
+                <div class="a-b4"></div>
+            </div>
+        </div>
+        <div class="nav m">
+            <label for="r1" class="m-btn"></label>
+            <label for="r2" class="m-btn"></label>
+            <label for="r3" class="m-btn"></label>
+            <label for="r4" class="m-btn"></label>
+        </div>
+    </div>
+</div>
+
+    <div id="cakes">
+        <img src="../images/Torte Dream Cake.webp" alt="" width="465px" height="260px" id="img1">
+        <div id="inner"><p id="rating"><span>3,670 + Ratings</span> 
+            <div><span><img id="star1" src="./star.png" alt="" width="15px" height="15px" class="star" ></span>
+                <span><img src="../images/star.png" alt="" width="15px" height="15px" class="star"></span>
+                <span><img src="../images/star.png" alt="" width="15px" height="15px" class="star"></span>
+                <span><img src="../images/star.png" alt="" width="15px" height="15px" class="star"></span>
+                <span><img src="../images/star.png" alt="" width="15px" height="15px" class="star"></span></div></p>
+        <div id="sub-inner"><img src="../images/1W5A0203 copy_edited_edited.webp" alt="" width="236px" height="187px">
+            <img src="../images/Image by Hamid Roshaan.webp" alt="" width="236px" height="187px">
+        </div>
+        </div>
+    </div>
+
+    <div id="bread">
+        <img src="../images/bread.webp" alt="" class="image">
+        <img src="../images/Burger.webp" alt="" class="image">
+        <img src="../images/Sandwich.webp" alt="" class="image">
+        <img src="../images/Veg Mini Pizza.webp" alt="" class="image">
+        <img src="../images/Egg Puff.webp" alt="" class="image">
+        <img src="../images/Rich Chocolate Doughnut.webp" alt="" class="image">
+        <img src="../images/Plain Croissant.webp" alt="" class="image">
+        <img src="../images/4 (1).webp" alt="" class="image">
+        <img src="../images/6.webp" alt="" class="image">
+        <img src="../images/Chocolate Tart.webp" alt="" class="image">
+        <img src="../images/Chocolate Eclair.webp" alt="" class="image">
+
+        <div id="breadMenu">
+            <p id="bread">Bread</p>
+            <p id="burger">Burger</p>
+            <p id="sand">Sandwitch</p>
+            <p id="pizza">Pizza</p>
+            <p id="puff">Puff</p>
+            <p id="dough">Doughnut</p>
+            <p id="crois">Croissants</p>
+            <p id="pudding">Pudding</p>
+            <p id="rusk">Rusk</p>
+            <p id="trats">Trats</p>
+            <p id="eclairs">Eclair</p>
+        </div>
+    </div>
+    <!-- add bread item -->
+    <div id="breadItem">
+  <div id="images1">
+    <div class="slider1">
+        <div class="slide1">
+            <input type="radio" name="radio-btn" id="r5">
+            <input type="radio" name="radio-btn" id="r6">
+            <input type="radio" name="radio-btn" id="r7">
+            <input type="radio" name="radio-btn" id="r8">
+            <div class="im1 first">
+                <img src="../images/b1.webp" alt="" id="images1">
+            </div>
+            <div class="im1 second">
+                <img src="../images/b2.webp" alt="" id="images1">
+            </div>
+            <div class="im1 third">
+                <img src="../images/b3.webp" alt="" id="images1">
+            </div>
+            <div class="im1 fourth">
+                <img src="../images/b4.webp" alt="" id="images1">
+            </div>
+            <div class="nav1-auto">
+                <div class="a-b11"></div>
+                <div class="a-b12"></div>
+                <div class="a-b13"></div>
+                <div class="a-b14"></div>
+            </div>
+        </div>
+        <div class="nav1 m">
+            <label for="r5" class="m-btn1"></label>
+            <label for="r6" class="m-btn1"></label>
+            <label for="r7" class="m-btn1"></label>
+            <label for="r8" class="m-btn1"></label>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id="des">
+    <img src="../images/01.webp" alt="" class="imgDes"><div id="con1"><h1>  01</h1><p>Anniversary</p></div>
+    <img src="../images/02.webp" alt="" class="imgDes"><div id="con2"><h1>  02</h1><p>Customized</p></div>
+    <img src="../images/03.webp" alt="" class="imgDes"><div id="con3"><h1>  03</h1><p>Loved One's</p></div>
+</div>
+<div id="des1">
+    <img src="../images/04.webp" alt="" class="imgDes1"><div id="con4"><h1>  04</h1><p>Weddings</p></div>
+    <img src="../images/05.webp" alt="" class="imgDes1"><div id="con5"><h1>  05</h1><p>Party</p></div>
+    <img src="../images/06.webp" alt="" class="imgDes1"><div id="con6"><h1>  06</h1><p>Birthday</p></div>
+</div>
+
+<!-- footer -->
+<div id="footer">
+    <div id="para"><h2>Amma's Pastries</h2><p>For over a decade, we have delighted customers in Bengaluru and beyond. With 41 outlets in Bengaluru, 9 in Kerala, 4 in Coimbatore, 1 in Hyderabad, and 4 in the UAE, we bring you a delicious selection of cakes, cookies, and savory delights. Experience our passion for baking in a warm rustic environment.</p></div>
+    <div id="polCom"> <div id="policy"><ol type="none"><h3>Policy</h3><li>Terms & Condition</li><li>Privacy Policy</li><li>Shipping & Cancellation</li></ol></div>
+    <div id="company"><ol><h3>Company</h3><li>About Us</li><li>Contact Us</li><li>Carriers</li></ol></div></div>
+    <div id="link"><ol><h3>Quick Links</h3><li>Cakes</li><li>Cookies</li><li>Pastries</li><li>Theme Cakes</li><li>Sandwitch</li><li>Breads</li><li>Samosa</li><li>Puff</li><li>Trats</li></ol></div>
+</div>
+<div id="copy"><p>©2023 by Amma's Pastries. </p></div>
+
+<div id="comment">
+    <img id="message" src="../images/message.png" alt="" width="35px" height="35px">
+    <a href=""><span id="contact">Contact Us</span></a>
+</div>
+
+<div class="feedback">
+    <h2 id="Past">Ammas Pastries</h2>
+    <div id="form">
+        <button id="time">12:16 AM</button>
+        <div id="aMess"><p>To send us a message, first leave your contact info so we can get back to you.</p></div>
+        <div id="contactForm">
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Name</span>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Email</span>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Phone</span>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Message...</span>
+            </div>
+            <div class="inputBox">
+                <input type="submit" name="" value="Submit">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="../src/script.js"></script>
+</body>
+</html>
