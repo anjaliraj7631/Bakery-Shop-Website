@@ -12,11 +12,11 @@ Welcome to the Cake and Pastry Website! This website showcases a delightful coll
 
 ## Tech Stack
 
-HTMLJavascript
+- HTMLJavascript
 
-CSS
+- CSS
 
-Javascript- DOM Manipulation, Local Storage
+- Javascript- DOM Manipulation, Local Storage
 
 
 ## Run Locally
